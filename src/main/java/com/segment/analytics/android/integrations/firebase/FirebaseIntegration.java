@@ -81,6 +81,7 @@ public class FirebaseIntegration extends Integration<FirebaseAnalytics> {
     EVENT_MAPPER.put("Product Shared", Event.SHARE);
     EVENT_MAPPER.put("Product Clicked", Event.SELECT_CONTENT);
     EVENT_MAPPER.put("Product Searched", Event.SEARCH);
+    EVENT_MAPPER.put("utm_details", Event.CAMPAIGN_DETAILS);
     return EVENT_MAPPER;
   }
 
