@@ -100,6 +100,11 @@ public class FirebaseIntegration extends Integration<FirebaseAnalytics> {
     PROPERTY_MAPPER.put("revenue", Param.VALUE);
     PROPERTY_MAPPER.put("order_id", Param.TRANSACTION_ID);
     PROPERTY_MAPPER.put("currency", Param.CURRENCY);
+    PROPERTY_MAPPER.put("utm_medium", Param.MEDIUM);
+    PROPERTY_MAPPER.put("utm_campaign", Param.CAMPAIGN);
+    PROPERTY_MAPPER.put("utm_source", Param.SOURCE);
+     PROPERTY_MAPPER.put("toolbox", Param.TRANSACTION_ID);
+    
     return PROPERTY_MAPPER;
   }
 
